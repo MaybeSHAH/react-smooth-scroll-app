@@ -1,4 +1,10 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FooterContainer,
+    FooterWrap,
+    FooterLinksContainer,
+    FooterLinksWrapper, FooterLinkItems, FooterLinkTitle,
+    FooterLink, SocialMedia, SocialMediaWrap, SocialIconLink, SocialIcons, SocialLogo, WebsiteRights} from './FooterElements';
 
 const Footer = () => {
     return (
@@ -43,6 +49,25 @@ const Footer = () => {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>
+                            Maybe_SHAH
+                        </SocialLogo>
+                        <WebsiteRights>Maybe_SHAH © {new Date().getFullYear() } All rights reserved.</WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink href='/' target="_blank" aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target="_blank" aria-label="Youtube">
+                                <FaYoutube />
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FooterContainer>
         </>
