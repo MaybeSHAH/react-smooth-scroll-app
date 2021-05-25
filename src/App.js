@@ -11,6 +11,12 @@ function App() {
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/signin' component={SigninPage} exact />
+        <Route path='/linkedin' component={() =>{
+            window.location.href = "https://www.linkedin.com/in/liyakat-shaikh-120219136/";
+        }} exact />
+        <Route path='/github' component={() =>{
+            window.location.href = "https://github.com/MaybeSHAH";
+        }} exact />
       </Switch>
     </Router>
   );

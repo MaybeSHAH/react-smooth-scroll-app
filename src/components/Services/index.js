@@ -1,35 +1,37 @@
 import React from 'react'
 import { ServicesContainer, ServicesCard, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements';
-import Icon1 from '../../images/svg-1.svg';
+import Icon1 from '../../images/coc100.png';
+import Icon2 from '../../images/mlbb100.svg';
+import Icon3 from '../../images/cs240.svg';
 const Services = () => {
     return (
         <>
         <ServicesContainer id="services">
             <ServicesH1>
-                Our Services
+                I'm fond of these games
             </ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                        <ServicesH2>Reduce Expences</ServicesH2>
+                        <ServicesH2>Clash of Clans</ServicesH2>
                             <ServicesP>
-                                We help reduce your fees
+                                #GOOLYOPQ
                             </ServicesP>
                         
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
-                        <ServicesH2>Virtual offices</ServicesH2>
+                    <ServicesIcon src={Icon2} />
+                        <ServicesH2>Mobile Legends Bang Bang</ServicesH2>
                             <ServicesP>
-                                You can access our platform
+                                ID: 6682117803
                             </ServicesP>
                         
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
-                        <ServicesH2>Prmium</ServicesH2>
+                    <ServicesIcon src={Icon3} />
+                        <ServicesH2>CSGO</ServicesH2>
                             <ServicesP>
-                                unl;ock memeber ship
+                                IGN: HorseWithNoName
                             </ServicesP>
                         
                 </ServicesCard>

@@ -19,7 +19,7 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrap>
                 <FooterLinksContainer>
-                    <FooterLinksWrapper>
+                    {/*<FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Me</FooterLinkTitle>
                                 <FooterLink to='signin'>hOW IT WORKS</FooterLink>
@@ -54,7 +54,7 @@ const Footer = () => {
                                 <FooterLink to='signin'> Agensa </FooterLink>
                                 <FooterLink to='signin'> discord </FooterLink>
                         </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    </FooterLinksWrapper>*/}
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
@@ -63,13 +63,13 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>Maybe_SHAH © {new Date().getFullYear() } All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='/' target="_blank" aria-label="Facebook">
+                            <SocialIconLink href='https://www.facebook.com/M4YBESHAH/' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target="_blank" aria-label="Instagram">
+                            <SocialIconLink href='https://www.instagram.com/maybe_shah/' target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href='/' target="_blank" aria-label="Youtube">
+                            <SocialIconLink href='https://www.youtube.com/channel/UCdDutUjHDpfI5nkFuN3j8YA' target="_blank" aria-label="Youtube">
                                 <FaYoutube />
                             </SocialIconLink>
                         </SocialIcons>
