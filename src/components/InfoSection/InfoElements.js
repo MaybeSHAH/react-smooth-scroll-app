@@ -19,6 +19,7 @@ export const InfoWrapper = styled.div`
     margin-right: auto;
     padding: 0 24px;
     justify-content: center;
+    
 
 `;
 
@@ -73,6 +74,10 @@ export const Heading = styled.h1`
 
     @media screen (max-width: 480px){
         font-size: 32px;
+
+    }
+    @media screen (max-width: 320px){
+        font-size: 24px;
 
     }
 `;

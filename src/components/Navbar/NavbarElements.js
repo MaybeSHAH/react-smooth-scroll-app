@@ -30,6 +30,7 @@ export const NavbarContainer = styled.div`
     @media screen and (max-width: 768px){
         padding: 0 10px;
     }
+
 `;
 export const NavLogo = styled(LinkR)`
     color: #fff;

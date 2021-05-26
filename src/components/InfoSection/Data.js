@@ -27,7 +27,7 @@ export const homeObjTwo= {
     lightText: false,
     lightTextDesc: false,
     topLine: 'I like to work on following technologies',
-    headLine: 'ReactJS, PHP, Python, HTML/CSS/Javascript, Linux',
+    headLine: 'ReactJS, PHP, Python, HTML, CSS, Javascript, Linux',
     description: '',
     buttonLabel: 'GitHub Profile',
     buttonLink: '/github',

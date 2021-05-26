@@ -58,7 +58,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onCllick={ toggleHome }>
+                        <SocialLogo to='/' onClick={ toggleHome }>
                             Maybe_SHAH
                         </SocialLogo>
                         <WebsiteRights>Maybe_SHAH © {new Date().getFullYear() } All rights reserved.</WebsiteRights>
