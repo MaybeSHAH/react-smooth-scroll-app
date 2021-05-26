@@ -79,6 +79,9 @@ export const HeroP = styled.p`
         font-size: 18px;
 
     }
+    @media screen and (max-width: 320px){
+        font-size: 16px;
+    }
 `;
 
 export const HeroBtnWrapper = styled.div`
